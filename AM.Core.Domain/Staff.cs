@@ -18,5 +18,12 @@ namespace AM.Core.Domain
                     + "Function :" + Function
                     + "Salary :" + Salary;
         }
+        public override string GetPassengerType()
+        {
+            
+            return "I am a " + this.GetType();
+
+
+        }
     }
 }
